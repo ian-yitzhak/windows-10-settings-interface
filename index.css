@@ -5,8 +5,8 @@ body{
 }
 
 .main{
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 	border: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
@@ -55,8 +55,8 @@ input[type=text] {
 }
 
 .FlexContainer div {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    
     margin: 5px;
   
 }
@@ -75,8 +75,7 @@ input[type=text] {
 }
 
 .FlexContainer_1 div {
-    width: 100px;
-    height: 100px;
+    width: 200px;
     margin: 5px;
     
 }
@@ -92,18 +91,29 @@ input[type=text] {
 }
 
 .FlexContainer_2 div {
-    width: 100px;
-    height: 100px;
-    margin: 17px;
-    padding: 26px;
+    width: 200px;
+    margin: 15px;
+    padding: 20px;
 }
 .flex_contents{
 	display: flex;
-	color: blue;
+	color: #0067B8;
+	width: 800px;
+}
+
+.flex_contents:hover{
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 h3{
 	padding: 0px;
 	margin: 10px;
 	font-family: sans-serif;
 	color: black;
+	font-size: 13px;
+}
+span{
+	font-size: 10px;
+	font-family: "Times New Roman",serif;
+
 }
