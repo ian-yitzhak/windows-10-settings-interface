@@ -1,3 +1,9 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: safaricom_montserrat,sans-serif;
+}
+
 .main{
 	margin-left: 10%;
 	margin-right: 10%;
@@ -44,7 +50,7 @@ input[type=text] {
     
     width: 100%;
    
-    overflow: auto;
+    overflow: hidden;
     flex-direction: row;
 }
 
@@ -52,7 +58,7 @@ input[type=text] {
     width: 100px;
     height: 100px;
     margin: 5px;
-    background-color: lightblue;
+  
 }
 
 
@@ -64,7 +70,7 @@ input[type=text] {
     width: 100%;
     
    
-    overflow: auto;
+    overflow: hidden;
     flex-direction: row;
 }
 
@@ -72,7 +78,7 @@ input[type=text] {
     width: 100px;
     height: 100px;
     margin: 5px;
-    background-color: lightblue;
+    
 }
 
 .FlexContainer_2 {
@@ -82,15 +88,22 @@ input[type=text] {
     align-items: flex-start;
     
     width: 100%;
-    
- 
-    overflow: auto;
     flex-direction: row;
 }
 
 .FlexContainer_2 div {
     width: 100px;
     height: 100px;
-    margin: 5px;
-    background-color: lightblue;
+    margin: 17px;
+    padding: 26px;
+}
+.flex_contents{
+	display: flex;
+	color: blue;
+}
+h3{
+	padding: 0px;
+	margin: 10px;
+	font-family: sans-serif;
+	color: black;
 }
