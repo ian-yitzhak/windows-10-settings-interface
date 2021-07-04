@@ -21,3 +21,18 @@ ul li {
 .right {
   float: right;
 }
+input[type=text] {
+
+  border: 1px solid black;
+  color: black;
+  border-radius: 12px;
+  padding: 8px 30px;
+  margin: 5px;
+  font-size: 15px;
+  position: relative;
+}
+
+.nav_2 input[type=text]:focus {
+
+  color: red;
+}
