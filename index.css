@@ -36,3 +36,61 @@ input[type=text] {
 
   color: red;
 }
+
+.FlexContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+    width: 100%;
+   
+    overflow: auto;
+    flex-direction: row;
+}
+
+.FlexContainer div {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: lightblue;
+}
+
+
+.FlexContainer_1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+    width: 100%;
+    
+   
+    overflow: auto;
+    flex-direction: row;
+}
+
+.FlexContainer_1 div {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: lightblue;
+}
+
+.FlexContainer_2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    width: 100%;
+    
+ 
+    overflow: auto;
+    flex-direction: row;
+}
+
+.FlexContainer_2 div {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: lightblue;
+}
